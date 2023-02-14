@@ -59,8 +59,43 @@ main{
     margin-right: auto;
 }
 .lista{
-    list-style-image: 25BC;
+    padding-left: 30px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.circle{
+    border: 1px solid green;
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.circle span{
+    line-height: 20px;
+    color: green;
+}
+
+.circle2{
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.circle2 span{
+    line-height: 20px;
+    color: red;
 }
 ul li{
-    list-style-type: none;
+    list-style: none;
+}
+
+.barra4{
+    margin-top: 0%;
+    height: 110px;
 }
